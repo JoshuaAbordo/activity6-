@@ -1,6 +1,6 @@
 <?php
 
-include_once "../activity2/controller/usercontroller.php";
+include_once "../controller/usercontroller.php";
 header('Content-Type: application/json');
 $usercontroller = new Usercontroller();
 $getalluser =$usercontroller->getalluser();

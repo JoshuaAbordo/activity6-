@@ -1,5 +1,5 @@
 <?php
-include_once "../activity2/migrations/tableuser.php";
+include_once "../migrations/tableuser.php";
 $tableuser = new Tableuser();
 $tableuser->CreateTable();
 ?>

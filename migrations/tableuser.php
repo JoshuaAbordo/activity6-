@@ -1,5 +1,5 @@
 <?php
-include_once "../activity2/database/db.php";
+include_once "../database/db.php";
 class Tableuser extends Dbconn{
     public function CreateTable(){
         $this->conn->query("CREATE TABLE IF NOT EXISTS users(

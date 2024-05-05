@@ -1,4 +1,5 @@
 <?php
-include_once '../activity2/controller/usercontroller.php';
-$insertuer = new Usercontroller();
-$insertuer->insertuser();
+include_once '../controller/usercontroller.php';
+$insertuser = new Usercontroller();
+$data = $insertuser->insertuser($_POST);
+echo json_encode($data);
